@@ -10,8 +10,8 @@
 
 <script>
 import ListMenu from './../listMenu';
-import weixin from './images/weixin.png';
-import app from './images/app.png';
+import weixin from "./images/weixin.png";
+import app from "./images/app.png";
 export default{
    name:'FooterTop',
    data(){

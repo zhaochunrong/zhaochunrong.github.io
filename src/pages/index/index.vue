@@ -49,13 +49,13 @@
 import MyHeader from './../../components/header/index.vue';
 import MyFooter from './../../components/footer/index.vue';
 
-import yanchanghui from './img/yanchanghui.png';
-import yinyuehui from './img/yinyuehui.png';
-import hjgj from './img/hjgj.png';
-import qyzt from './img/qyzt.png';
-import tybs from './img/tybs.png';
-import etqz from './img/etqz.png';
-import wdbl from './img/wdbl.png';
+import yanchanghui from "./img/yanchanghui.png";
+import yinyuehui from "./img/yinyuehui.png";
+import hjgj from "./img/hjgj.png";
+import qyzt from "./img/qyzt.png";
+import tybs from "./img/tybs.png";
+import etqz from "./img/etqz.png";
+import wdbl from "./img/wdbl.png";
 
 import Banner from './../../components/banner/index.vue';
 export default {
@@ -76,7 +76,7 @@ export default {
     },
     hide(index){
     	this.IsShow=!this.IsShow;
-    }
+    },
     getData(){
     	
     }
@@ -134,7 +134,7 @@ export default {
 .goodsList ul li:hover{
 	background: darkred;
 }
-.goodsList ul li: hover a{
+.goodsList ul li:hover a{
 	color: #D3D3D3;
 }
 .goodsList ul li a img{
